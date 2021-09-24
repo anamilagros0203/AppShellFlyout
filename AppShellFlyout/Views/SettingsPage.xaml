@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppShellFlyout.Views.SettingsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tu idioma"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   FontSize="35"
+                   TextColor="Orange"/>
+           
+            <StackLayout>
+                <Label Text="¿Cual es?" 
+                       TextColor="Black"
+                       FontSize="30"/>
+                <RadioButton Content="Castellano" 
+                             TextColor="Black"
+                             BackgroundColor="Orange"/>
+                <RadioButton Content="Ingles" 
+                             TextColor="Black"                 
+                             BackgroundColor="Orange"/>
+                <RadioButton Content="Ruso" 
+                             TextColor="Black"
+                             BackgroundColor="Orange"/>
+                <RadioButton Content="Portugues"
+                             TextColor="Black"
+                 IsChecked="true"
+                             BackgroundColor="Orange"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
